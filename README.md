@@ -1,5 +1,5 @@
 # MyoCar
-Dan Ngugyen & Rachel Platt
+Dan Nguyen & Rachel Platt
 
 ## Goal
 We wanted to make an accessible vehicle that would be controlled by a myoband. The controls for the vehicle are all only controlled by the motions of one hand/ arm.
