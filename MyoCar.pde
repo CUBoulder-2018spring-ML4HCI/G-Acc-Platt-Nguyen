@@ -37,7 +37,7 @@ int fgSpeed = 7;
  
 Player player = new Player(250, 250, 5,70,90);
 
-Coin[] coins = new Coin[100];
+Coin[] coins = new Coin[10000];
 
 void setup()
 {
@@ -80,7 +80,7 @@ void setup()
     xx[i] = blockW * i;
   }
   
-   for (int i = 0; i < 100; i ++)
+   for (int i = 0; i < 10000; i ++)
   {
     float y = cy + sin(theta) * radius;
     coins[i] = new Coin(width + 30 * i, y, 20,20 );
@@ -182,7 +182,7 @@ void GUI()
 void coin()
 {
   
-  for(int i = 0; i < 100; i++)
+  for(int i = 0; i < 1000; i++)
   {
     coins[i].update();
   }
